@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
         int a, b, c;
-        double u, square;
+        double u, area;
 
         System.out.print("1. kenarı giriniz:");
         a = inp.nextInt();
@@ -16,9 +16,9 @@ public class Main {
 
         u = (a + b + c) / 2;
 
-        square = Math.sqrt(u * (u - a)* (u - b) * (u - c));
+        area = Math.sqrt(u * (u - a)* (u - b) * (u - c));
 
-        System.out.print("Üçgenin Alanı:" + square);
+        System.out.print("Üçgenin Alanı:" + area);
 
     }
 }
